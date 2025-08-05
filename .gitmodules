@@ -1,0 +1,6 @@
+[submodule "themes/notrack"]
+	path = themes/notrack
+	url = https://github.com/gevhaz/hugo-theme-notrack.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

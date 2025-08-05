@@ -1,0 +1,4 @@
+baseURL = 'https://blahg.net/'
+languageCode = 'en-us'
+title = 'Blahg'
+theme = "PaperMod"
