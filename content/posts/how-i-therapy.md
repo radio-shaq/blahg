@@ -1,11 +1,14 @@
 +++
 date = '2025-08-04T21:38:49-04:00'
-draft = false
+draft = true
 title = 'How I Therapy'
 +++
 
 [[writing scrap week 32 2025]]
 
+other posts:
+- [[how-i-blog]]
+- 
 
 These are some partial notes of how i prepare (and kinfd of do) therapy. 
 
@@ -16,6 +19,7 @@ but also dont be afradid to aok about something fresh even breifly...sometimes s
 
 [[how-i-blog]]
 see [[howblog]], 
+
 
 
 

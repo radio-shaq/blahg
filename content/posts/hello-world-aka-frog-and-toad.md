@@ -4,7 +4,10 @@ draft = false
 title = 'Hello World'
 +++
 
-
+other posts:
+- [[how-i-therapy]]
+- [[hello-world-aka-frog-and-toad]]
+- 
 ![Hello World](/images/toad_blah_wide.png)
 
 

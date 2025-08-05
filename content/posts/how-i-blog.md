@@ -5,6 +5,10 @@ title = 'How I Blog'
 +++
 
 
+other posts:
+- [[how-i-therapy]]
+- [[hello-world-aka-frog-and-toad]]
+- 
 
 
 Get comfy.

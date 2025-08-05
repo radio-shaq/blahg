@@ -1,4 +1,151 @@
-baseURL = 'https://blahg.net/'
-languageCode = 'en-us'
-title = 'Blahg'
+baseURL = "https://blahg.net/"
+languageCode = "en-us"
+title = "BLAHG"
 theme = "PaperMod"
+pagination.pagerSize = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Minification
+[minify]
+disableXML = true
+
+[params]
+env = "production"  # enables google analytics, opengraph, etc.
+
+# Basic Info
+title = "BLAHG"
+description = "Thoughtful writing about AI, parenting, and other adventures"
+keywords = ["AI", "writing", "parenting", "technology", "blog"]
+author = "RadioShaqt"
+# For multiple authors: author = ["Ralph Russell", "radio shaq"]
+
+# Date & Theme
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"  # auto, dark, light
+disableThemeToggle = false
+
+# Post Features
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+# Homepage Mode Options (choose one):
+
+# Option 1: Home-Info Mode (welcome message + posts)
+homeInfoEnabled = true
+[params.homeInfoParams]
+Title = "Welcome to Blahg 👋"
+Content = """
+Thoughtful writing about AI, parenting, technology, and the spaces where they intersect.
+Less smoothing, more authentic thinking."""
+
+# Option 2: Profile Mode (uncomment to use instead)
+# [params.profileMode]
+# enabled = true
+# title = "Ralph Russell"
+# subtitle = "Writer, Parent, Thoughtful Human"
+# imageUrl = "/images/profile.jpg"
+# imageTitle = "Ralph Russell"
+# imageWidth = 120
+# imageHeight = 120
+# [[params.profileMode.buttons]]
+# name = "Posts"
+# url = "posts"
+# [[params.profileMode.buttons]]
+# name = "About"
+# url = "about"
+
+# Social Icons (homepage)
+[[params.socialIcons]]
+name = "bluesky"
+url = "https://bsky.app/profile/yourhandle"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/radio-shaq"
+[[params.socialIcons]]
+name = "rss"
+url = "index.xml"
+
+# Menu
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 20
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/archives/"
+weight = 30
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+# Assets
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+safari_pinned_tab = "/safari-pinned-tab.svg"
+
+# Cover image defaults
+[params.cover]
+hidden = true  # hide everywhere but not in structured data
+hiddenInList = true  # hide on list pages and home
+hiddenInSingle = true  # hide on single page
+
+# For search functionality
+[outputs]
+home = ["HTML", "RSS", "JSON"]  # needed for search
+
+# Privacy settings (Hugo 0.148.2 compatible)
+[privacy]
+[privacy.vimeo]
+disabled = false
+simple = true
+[privacy.x]  # Updated from twitter
+disabled = false
+enableDNT = true
+simple = true
+[privacy.instagram]
+disabled = false
+simple = true
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+# Code highlighting (Hugo 0.148.2 compatible)
+[markup]
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "github"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true  # Allow HTML in markdown
